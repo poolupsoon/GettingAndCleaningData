@@ -12,11 +12,11 @@ Alternatively, the data can be obtained at the following link:
 
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-##### For more details on the data cleaning processes, please refer to [README.md](https://github.com/poolupsoon/GettingAndCleaningData/blob/master/README.md).
+#### For more details on the data cleaning processes, please refer to [README.md](https://github.com/poolupsoon/GettingAndCleaningData/blob/master/README.md).
 
 The following are the details on the two resulting (meanStdSet and averageSummarySet) data sets:
 
-#### meanStdSet Data Set (the measurements on only the mean and standard deviation for each measurement):
+### meanStdSet Data Set (the measurements on only the mean and standard deviation for each measurement):
 
 1. Variable Name: **activity**
  * Class: factor
@@ -290,7 +290,7 @@ The following are the details on the two resulting (meanStdSet and averageSummar
  * Class: numeric
  * Description: Standard deviation of fBodyBodyGyroJerkMag
 
-#### averageSummarySet Data Set (the average of each variable for each activity and each subject):
+### averageSummarySet Data Set (the average of each variable for each activity and each subject):
 
 1. Variable Name: **activity**
  * Class: factor

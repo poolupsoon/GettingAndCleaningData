@@ -30,18 +30,16 @@ Alternatively, the data can be obtained at the following link:
 
 8. Extract only the measurements on the mean and standard deviation for each measurement.
 
-9. Output the resulting meanStdSet data set to meanStdSet.csv file in the working directory.
+9. Using the resulting data set, generate the average of each variable for each activity and each subject using the summarize_all() function.
 
-10. Using the resulting data set, generate the average of each variable for each activity and each subject using the summarize_all() function.
+10. Output the resulting averageSummarySet data set to averageSummarySet.txt file in the working directory.
 
-11. Output the resulting averageSummarySet data set to averageSummarySet.csv file in the working directory.
-
-#### If you would like to reproduce the meanStdSet and averageSummarySet data sets, please do the following:
+#### If you would like to reproduce the averageSummarySet data set, please do the following:
 
 1. Load the get_data.R file with source() in order to download the data for the project. 
 
 2. Load the run_analysis.R file with source().
 
-3. Both the data sets will be written out to the working directory, as csv files with their respective data set names.
+3. The data set will be written out to the working directory, as averageSummarySet.txt.
 
-#### For more details on the two resulting (meanStdSet and averageSummarySet) data sets, please refer to [CodeBook.md](https://github.com/poolupsoon/GettingAndCleaningData/blob/master/CodeBook.md).
+#### For more details on the resulting (averageSummarySet) data set, please refer to [CodeBook.md](https://github.com/poolupsoon/GettingAndCleaningData/blob/master/CodeBook.md).

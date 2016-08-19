@@ -44,10 +44,6 @@ names(mergedSet) <- c("activity", "subject", features$V2)
 meanStdVariable <- grep("mean\\(\\)|std\\(\\)", features$V2, value = TRUE)
 meanStdSet <- mergedSet[,c("activity", "subject", meanStdVariable)]
 
-## Output the resulting meanStdSet data set to meanStdSet.csv file in the
-## working directory
-write.csv(meanStdSet, file = "meanStdSet.csv", row.names = FALSE)
-
 ## Using the resulting data set, generate the average of each variable for
 ## each activity and each subject using the summarize_all() function
 averageSummarySet <- as.data.frame(meanStdSet %>% 
@@ -55,5 +51,5 @@ averageSummarySet <- as.data.frame(meanStdSet %>%
                                 summarize_all(mean))
 
 ## Output the resulting averageSummarySet data set to 
-## averageSummarySet.csv file in the working directory
-write.csv(averageSummarySet, file = "averageSummarySet.csv", row.names = FALSE)
+## averageSummarySet.txt file in the working directory
+write.table(averageSummarySet, file = "averageSummarySet.txt", row.names = FALSE)

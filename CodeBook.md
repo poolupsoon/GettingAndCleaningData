@@ -12,7 +12,7 @@ Alternatively, the data can be obtained at the following link:
 
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-###### For more details on the data cleaning processes, please refer to [https://github.com/poolupsoon/GettingAndCleaningData/blob/master/README.md](README.md).
+##### For more details on the data cleaning processes, please refer to [README.md](https://github.com/poolupsoon/GettingAndCleaningData/blob/master/README.md).
 
 The following are the details on the two resulting (meanStdSet and averageSummarySet) data sets:
 

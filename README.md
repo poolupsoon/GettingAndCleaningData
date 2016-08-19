@@ -44,4 +44,4 @@ Alternatively, the data can be obtained at the following link:
 
 3. Both the data sets will be written out to the working directory, as csv files with their respective data set names.
 
-###### For more details on the two resulting (meanStdSet and averageSummarySet) data sets, please refer to [https://github.com/poolupsoon/GettingAndCleaningData/blob/master/CodeBook.md](CodeBook.md).
+##### For more details on the two resulting (meanStdSet and averageSummarySet) data sets, please refer to [CodeBook.md](https://github.com/poolupsoon/GettingAndCleaningData/blob/master/CodeBook.md).
